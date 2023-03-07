@@ -61,5 +61,4 @@ public class Main {
         System.out.println("Всего работников в компании- "+rabotnikov+" человек.");
         var vsegoRabot = rabotnikov + 94;
         hoursWork = hourWork * vsegoRabot;
-        System.out.println("Если в компании работает "+vsegoRabot+" человек, то всего "+hoursWork+" часов может быть поделено между сотрудниками.");}
-}
+        System.out.println("Если в компании работает "+vsegoRabot+" человек, то всего "+hoursWork+" часов может быть поделено между сотрудниками.");}}

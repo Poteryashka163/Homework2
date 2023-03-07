@@ -43,22 +43,23 @@ public class Main {
         var boxerSum = 0.0;
         var boxerRaz = 0.0;
         boxerSum = boxer1 + boxer2;
-        System.out.println("Общий вес бойцов+boxerSum+kg.");
+        System.out.println("Общий вес бойцов"+boxerSum+"kg.");
         boxerRaz = boxer1 - boxer2;
-        System.out.println("Разница а весе бойцов+boxerRaz+kg.");
+        System.out.println("Разница а весе бойцов"+boxerRaz+"kg.");
         System.out.println("    Решение Задачи-7");
         var boxerRaz1 = 0.0;
         var boxerOst = 0.0;
         boxerRaz1 = boxer2 - boxer1;
-        System.out.println("Разница а весе бойцов(вычитанием) +boxerRaz1+kg.");
+        System.out.println("Разница а весе бойцов(вычитанием): "+boxerRaz1+"kg.");
         boxerOst = boxer2 % boxer1;
-        System.out.println("Разница а весе бойцов(остатком от деления) +boxerOst+kg.");
+        System.out.println("Разница а весе бойцов(остатком от деления): "+boxerOst+"kg.");
         System.out.println("    Решение Задачи-8");
         var hoursWork = 640;
         var hourWork = 8;
         var rabotnikov = 0;
         rabotnikov = hoursWork / hourWork;
-        System.out.println("Всего работников в компании- +rabotnikov+ человек.");
+        System.out.println("Всего работников в компании- "+rabotnikov+" человек.");
         var vsegoRabot = rabotnikov + 94;
         hoursWork = hourWork * vsegoRabot;
-        System.out.println("Если в компании работает +vsegoRabot+ человек, то всего +hoursWork+ часов может быть поделено между сотрудниками.");}}
+        System.out.println("Если в компании работает "+vsegoRabot+" человек, то всего "+hoursWork+" часов может быть поделено между сотрудниками.");}
+}
